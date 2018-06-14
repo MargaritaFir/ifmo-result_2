@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Привязка контекста</title>
+</head>
+<body>
+	<button id="bt1">button 1</button>
+	<button id="bt2">button 2 </button>
+
+	<script>
+		{
+			!function(t){var e={};function n(r){if(e[r])return e[r].exports;var o=e[r]={i:r,l:!1,exports:{}};return t[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=t,n.c=e,n.d=function(t,e,r){n.o(t,e)||Object.defineProperty(t,e,{configurable:!1,enumerable:!0,get:r})},n.r=function(t){Object.defineProperty(t,"__esModule",{value:!0})},n.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(e,"a",e),e},n.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},n.p="",n(n.s=0)}([function(t,e){var n=document.body.appendChild(document.createElement("h4"));function r(){this.textContent=this.id}n.setAttribute("title","GossJS"),n.setAttribute("id","author"),n.textContent+="MargaritaFir\n",document.querySelector("#bt1").addEventListener("click",r),document.querySelector("#bt2").addEventListener("click",function(t){var e=t.target;return r.call(e)})}]);
+		}
+	</script>
+	
+</body>
+</html>
