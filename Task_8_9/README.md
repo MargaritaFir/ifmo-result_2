@@ -1,3 +1,2 @@
 
-Сылка на CodePen: 
-https://codepen.io/MargaritaFir/pen/qKjgbY?editors=0001
+[Сылка на CodePen](https://codepen.io/MargaritaFir/pen/qKjgbY?editors=0001)
